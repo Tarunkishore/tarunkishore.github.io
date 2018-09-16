@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+    <title>Table</title>
+ </head>
+ <body bgcolor="lightgray">
+ <fieldset>
+  <legend><font color="#de6fa1" face="ariel"><h1>Select Train Between Station : </h1></font></legend>
+  <tr>
+<td align="right">
+</td></tr>
+<table width="100%" border="0px">
+<tbody><tr bgcolor="PaleGoldenRod">
+	<th>Quota:</th>
+	<td>
+	<div><table border="0px">
+<tbody><tr  bgcolor="PaleGoldenRod">
+<td><input type="radio" name="quota" onclick="checkQuota(this);">GENERAL</td>
+<td><input type="radio" name="quota" onclick="checkQuota(this);">HANDICAPED</td>
+<td><input type="radio" name="quota" onclick="checkQuota(this);">LADIES</td>
+</tr></tbody></table></div></td><td>
+<p>Kindly check General Quota availability before opting for Tatkal/Premium Tatkal Quota.</p>
+ <td><font color="orangered">Click on a Class to get Availability and Fare*</font></td>
+	</td><form>
+</tr>
+</tbody></table><table border="0px"><tr><td>
+<table border="1px">
+ <colgroup span="16"></colgroup><thead id="avlAndFareForm:trainbtwnstns:th" class="rf-dt-thd">
+ <tr id="avlAndFareForm:trainbtwnstns:ch" class="rf-dt-shdr">
+ <th class="trainno rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt495">Train No.
+ <div id="up" style="float: right; display: none;"></div>
+ <div id="down" style="float: right; display: none;"></div></th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt499">Train Name</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt504">From</th>
+ <th class="rf-dt-shdr-c departure" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt507">Departure
+ <div id="up" style="float: right; display: block;" class="up-hdr"></div>
+ <div id="down" style="float: right; display: none;"></div></th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt511">To</th>
+ <th class="rf-dt-shdr-c arrival" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt514">Arrival
+ <div id="up" style="float: right; display: none;"></div>
+ <div id="down" style="float: right; display: none;"></div></th>
+ <th class="rf-dt-shdr-c distance" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt518">Dist(Km)
+ <div id="up" style="float: right; display: none;"></div>
+ <div id="down" style="float: right; display: none;"></div></th>
+ <th class="rf-dt-shdr-c tvltime" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt522">Travel(hr)
+ <div id="up" style="float: right; display: none;"></div>
+ <div id="down" style="float: right; display: none;"></div></th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt526">M</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt529">T</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt532">W</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt535">T</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt538">F</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt541">S</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt544">S</th>
+ <th class="rf-dt-shdr-c" scope="col" id="avlAndFareForm:trainbtwnstns:j_idt547">Class</th>
+ </tr></thead>
+ <tbody id="avlAndFareForm:trainbtwnstns:tb" class="rf-dt-b">
+<tr id="avlAndFareForm:trainbtwnstns:2" class="rf-dt-r">
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt495" class="rf-dt-c">
+<a href="javascript:trainScheFunc('12322','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12322</a></td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt499" class="rf-dt-c">KOLKATA MAIL</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt504" class="rf-dt-c">GAYA</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt507" class="rf-dt-c">02:30</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt511" class="rf-dt-c">HWH</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt514" class="rf-dt-c">11:45</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt518" class="rf-dt-c jDist">458</td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt522" class="rf-dt-c">09:15</td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td id="avlAndFareForm:trainbtwnstns:2:j_idt547" class="rf-dt-c jClasses">
+	<a id="cllink-12322-1A-0" href="javascript:availFareEnq($('#cllink-12322-1A-0'),'12322','Sat Sep 09 00:00:00 IST 2017','1A','GAYA','HWH',true)" tabindex="2">1A</a> 
+	<a id="cllink-12322-2A-1" href="javascript:availFareEnq($('#cllink-12322-2A-1'),'12322','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+	<a id="cllink-12322-3A-2" href="javascript:availFareEnq($('#cllink-12322-3A-2'),'12322','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+	<a id="cllink-12322-SL-3" href="javascript:availFareEnq($('#cllink-12322-SL-3'),'12322','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:3" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12314','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12314</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt499" class="rf-dt-c">SEALDAH RJDHANI</td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt507" class="rf-dt-c">03:53</td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt511" class="rf-dt-c">SDAH</td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt514" class="rf-dt-c">10:10</td>
+		<td id="avlAndFareForm:trainbtwnstns:3:j_idt518" class="rf-dt-c jDist">464</td>
+		<td id="avlAndFareForm:trainbtwnstns:2:j_idt522" class="rf-dt-c">06:02</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+    	<td id="avlAndFareForm:trainbtwnstns:3:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12314-1A-0" href="javascript:availFareEnq($('#cllink-12314-1A-0'),'12314','Sat Sep 09 00:00:00 IST 2017','1A','GAYA','SDAH',true)" tabindex="2">1A</a> 
+<a id="cllink-12314-2A-1" href="javascript:availFareEnq($('#cllink-12314-2A-1'),'12314','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','SDAH',true)" tabindex="2">2A</a> 
+<a id="cllink-12314-3A-2" href="javascript:availFareEnq($('#cllink-12314-3A-2'),'12314','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','SDAH',true)" tabindex="2">3A</a> 
+    	<span style="display:none;" id="ttf">R,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:1" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('22324','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">22324</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt499" class="rf-dt-c">SHABD BHEDI  SF</td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt507" class="rf-dt-c">05:53</td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt511" class="rf-dt-c">KOAA</td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt514" class="rf-dt-c">13:15</td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt518" class="rf-dt-c jDist">460</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt522" class="rf-dt-c">07:22</td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+		<td id="avlAndFareForm:trainbtwnstns:1:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-22324-2A-0" href="javascript:availFareEnq($('#cllink-22324-2A-0'),'22324','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','KOAA',true)" tabindex="2">2A</a> 
+<a id="cllink-22324-3A-1" href="javascript:availFareEnq($('#cllink-22324-3A-1'),'22324','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','KOAA',true)" tabindex="2">3A</a> 
+<a id="cllink-22324-SL-2" href="javascript:availFareEnq($('#cllink-22324-SL-2'),'22324','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','KOAA',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:9" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('13152','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">13152</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt499" class="rf-dt-c">KOLKATA EXP</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt507" class="rf-dt-c">06:30</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt511" class="rf-dt-c">KOAA</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt514" class="rf-dt-c">15:55</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt518" class="rf-dt-c jDist">460</td>
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt522" class="rf-dt-c">09:25</td>
+
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>		
+		<td id="avlAndFareForm:trainbtwnstns:9:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-13152-2A-0" href="javascript:availFareEnq($('#cllink-13152-2A-0'),'13152','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','KOAA',true)" tabindex="2">2A</a> 
+<a id="cllink-13152-3A-1" href="javascript:availFareEnq($('#cllink-13152-3A-1'),'13152','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','KOAA',true)" tabindex="2">3A</a> 
+<a id="cllink-13152-SL-2" href="javascript:availFareEnq($('#cllink-13152-SL-2'),'13152','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','KOAA',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:5" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12988','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12988</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt499" class="rf-dt-c">AII SDAH EXPRES</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt507" class="rf-dt-c">07:48</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt511" class="rf-dt-c">SDAH</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt514" class="rf-dt-c">16:00</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt518" class="rf-dt-c jDist">464</td>
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt522" class="rf-dt-c">08:12</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>	
+		<td id="avlAndFareForm:trainbtwnstns:5:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12988-2A-0" href="javascript:availFareEnq($('#cllink-12988-2A-0'),'12988','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','SDAH',true)" tabindex="2">2A</a> 
+<a id="cllink-12988-3A-1" href="javascript:availFareEnq($('#cllink-12988-3A-1'),'12988','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','SDAH',true)" tabindex="2">3A</a> 
+<a id="cllink-12988-SL-2" href="javascript:availFareEnq($('#cllink-12988-SL-2'),'12988','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','SDAH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:7" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12382','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12382</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt499" class="rf-dt-c">POORVA EXPRESS</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt507" class="rf-dt-c">09:18</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt514" class="rf-dt-c">16:55</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt518" class="rf-dt-c jDist">458</td>
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt522" class="rf-dt-c">07:37</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="red"><b>✖</b></font></td>	
+		<td id="avlAndFareForm:trainbtwnstns:7:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12382-1A-0" href="javascript:availFareEnq($('#cllink-12382-1A-0'),'12382','Sat Sep 09 00:00:00 IST 2017','1A','GAYA','HWH',true)" tabindex="2">1A</a> 
+<a id="cllink-12382-2A-1" href="javascript:availFareEnq($('#cllink-12382-2A-1'),'12382','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+<a id="cllink-12382-3A-2" href="javascript:availFareEnq($('#cllink-12382-3A-2'),'12382','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-12382-SL-3" href="javascript:availFareEnq($('#cllink-12382-SL-3'),'12382','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:4" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('13024','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">13024</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt499" class="rf-dt-c">GAYA HWH EXPRESS</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt507" class="rf-dt-c">12:20</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt514" class="rf-dt-c">03:40</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt518" class="rf-dt-c jDist">654</td>
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt522" class="rf-dt-c">15:20</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>		
+		<td id="avlAndFareForm:trainbtwnstns:4:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-13024-2A-0" href="javascript:availFareEnq($('#cllink-13024-2A-0'),'13024','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+<a id="cllink-13024-3A-1" href="javascript:availFareEnq($('#cllink-13024-3A-1'),'13024','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-13024-SL-2" href="javascript:availFareEnq($('#cllink-13024-SL-2'),'13024','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:10" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12308','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12308</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt499" class="rf-dt-c">JU HWH SUPFAST</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt507" class="rf-dt-c">20:18</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt514" class="rf-dt-c">04:00</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt518" class="rf-dt-c jDist">458</td>
+		<td id="avlAndFareForm:trainbtwnstns:10:j_idt522" class="rf-dt-c">07:42</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>	
+	<td id="avlAndFareForm:trainbtwnstns:10:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12308-2A-0" href="javascript:availFareEnq($('#cllink-12308-2A-0'),'12308','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+<a id="cllink-12308-3A-1" href="javascript:availFareEnq($('#cllink-12308-3A-1'),'12308','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-12308-SL-2" href="javascript:availFareEnq($('#cllink-12308-SL-2'),'12308','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:6" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('13010','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">13010</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt499" class="rf-dt-c">DOON EXPRESS</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt507" class="rf-dt-c">21:27</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt514" class="rf-dt-c">06:55</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt518" class="rf-dt-c jDist">470</td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt522" class="rf-dt-c">09:28</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+		<td id="avlAndFareForm:trainbtwnstns:6:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-13010-2A-0" href="javascript:availFareEnq($('#cllink-13010-2A-0'),'13010','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a>				 
+<a id="cllink-13010-3A-1" href="javascript:availFareEnq($('#cllink-13010-3A-1'),'13010','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-13010-SL-2" href="javascript:availFareEnq($('#cllink-13010-SL-2'),'13010','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:8" class="rf-dt-r">
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12176','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12176</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt499" class="rf-dt-c">CHAMBAL EXPRESS</td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt507" class="rf-dt-c">23:03</td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt514" class="rf-dt-c">06:45</td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt518" class="rf-dt-c jDist">458</td
+		><td id="avlAndFareForm:trainbtwnstns:8:j_idt522" class="rf-dt-c">07:42</td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+		<td id="avlAndFareForm:trainbtwnstns:8:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12176-2A-0" href="javascript:availFareEnq($('#cllink-12176-2A-0'),'12176','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+<a id="cllink-12176-3A-1" href="javascript:availFareEnq($('#cllink-12176-3A-1'),'12176','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-12176-SL-2" href="javascript:availFareEnq($('#cllink-12176-SL-2'),'12176','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr>
+		<tr id="avlAndFareForm:trainbtwnstns:0" class="rf-dt-r rf-dt-fst-r">
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt495" class="rf-dt-c">
+		<a href="javascript:trainScheFunc('12312','GAYA','Sat Sep 09 00:00:00 IST 2017')" tabindex="2" class="trainNoLink">12312</a></td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt499" class="rf-dt-c">KALKA MAIL</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt504" class="rf-dt-c">GAYA</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt507" class="rf-dt-c">23:25</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt511" class="rf-dt-c">HWH</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt514" class="rf-dt-c">07:55</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt518" class="rf-dt-c jDist">458</td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt522" class="rf-dt-c">08:30</td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+<td><font color="Green"><b>✓</b></font></td>
+<td><font color="red"><b>✖</b></font></td>
+		<td id="avlAndFareForm:trainbtwnstns:0:j_idt547" class="rf-dt-c jClasses">
+<a id="cllink-12312-1A-0" href="javascript:availFareEnq($('#cllink-12312-1A-0'),'12312','Sat Sep 09 00:00:00 IST 2017','1A','GAYA','HWH',true)" tabindex="2">1A</a> 
+<a id="cllink-12312-2A-1" href="javascript:availFareEnq($('#cllink-12312-2A-1'),'12312','Sat Sep 09 00:00:00 IST 2017','2A','GAYA','HWH',true)" tabindex="2">2A</a> 
+<a id="cllink-12312-3A-2" href="javascript:availFareEnq($('#cllink-12312-3A-2'),'12312','Sat Sep 09 00:00:00 IST 2017','3A','GAYA','HWH',true)" tabindex="2">3A</a> 
+<a id="cllink-12312-SL-3" href="javascript:availFareEnq($('#cllink-12312-SL-3'),'12312','Sat Sep 09 00:00:00 IST 2017','SL','GAYA','HWH',true)" tabindex="2">SL</a> 
+		<span style="display:none;" id="ttf">O,</span></td></tr></tbody>
+		<tbody id="avlAndFareForm:trainbtwnstns:sc">
+		<tr><td style="display: none"><script type="text/javascript">new
+		</script></td></tr></tbody>
+</table></td>
+<td><table border="0px"><tr><td><img src="tableimg.jpg" height="320" width="390"></td></tr></table></td>
+</tr></table></div>
+</fieldset>
+</form><br><br><br>
+<b><p align="center">
+ <font color="red">For enquiry-mail to<span style="color:DodgerBlue"> help@irctc.co.in</span> | contact : <span style="color:BlueViolet">18009002001*/2/3/4</span></font></p>       
+ <div id="menu" align="middle">
+ <a href="https://www.mysirg.com/home/"><font color="darkGreen "> HOME </font></a> |
+ <a href="https://www.google.com/contact">CONTACT</a> |
+ <a href="about"><font color="SADDLEBROWN">ABOUT</a></div></b>
+</body>
+</html>
